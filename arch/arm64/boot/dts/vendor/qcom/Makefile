@@ -35,10 +35,10 @@ lahaina-tundra-dvt2-overlay.dtbo-base := lahaina-moto-base-v2.1.dtb
 
 dtbo-$(CONFIG_ARCH_YUPIK) += \
 		yupik-dubai-evb-overlay.dtbo \
-		yupik-berlin-evb-overlay.dtbo \
-		yupik-berlin-dvt1-overlay.dtbo \
-		yupik-berlin-dvt1b-overlay.dtbo \
-		yupik-berlna-evb-overlay.dtbo
+#		yupik-berlin-evb-overlay.dtbo \
+#		yupik-berlin-dvt1-overlay.dtbo \
+#		yupik-berlin-dvt1b-overlay.dtbo \
+#		yupik-berlna-evb-overlay.dtbo
 
 yupik-berlin-evb-overlay.dtbo-base := yupik-moto-base.dtb
 yupik-berlin-dvt1-overlay.dtbo-base := yupik-moto-base.dtb
