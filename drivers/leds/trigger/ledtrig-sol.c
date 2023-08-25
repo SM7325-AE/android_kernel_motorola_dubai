@@ -216,7 +216,7 @@ static struct led_trigger sol_led_trigger = {
 	.groups     = sol_trig_groups,
 };
 
-static int is_multi_led_enabled () {
+static int is_multi_led_enabled (void) {
 	return multi_led_enable;
 }
 
